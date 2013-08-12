@@ -13,11 +13,11 @@ var ItemCollectionView = Backbone.View.extend({
     },    		
 	
     render: function() {
-        var model = new Item({
+        var model = new Item();
+        model.set({
 		    "number" : this.setNumber(),
 		    "date" : this.model.getCurrentDate(),
-			"random" :this.model.getRandomDate()
-		});		
+			"random" :this.model.getRandomDate()});		
 	    this.collection.create(model);        
         this.addOne(model);
         console.log(this.collection.length);		
