@@ -1,0 +1,38 @@
+.wrapper{
+    width: 420px;	
+	margin:200px auto 0;
+}
+input{
+    display:block;
+}
+input, div, select{ 
+    margin: 20px;
+}
+.border{
+    float:left;
+	padding: 5px; 
+	width: 20px;
+	border: 1px solid #7962ED;
+	text-align:center;
+}
+.clearer{
+    clear:both;
+}
+
+#calcs{    
+	margin:20px 0;
+}
+#calcs input{    
+	width:30;
+    height:30;	
+	float:left;
+	margin:0;
+	padding:5px;	
+}
+#solved{
+    padding: 0 5px;
+	border: 1px solid #7962ED;
+}
+a{
+    text-decoration:none;
+}
