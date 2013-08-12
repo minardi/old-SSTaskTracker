@@ -1,0 +1,32 @@
+table {
+    margin: 40px auto;	
+	width: 500px;
+	border: 2px solid #151F15;
+	background-color: #DBF0D1;
+	border-radius: 10px;
+}
+table th{
+    background-color: #8D9A86;
+}
+table tr{
+    height: 30px;	
+}
+table td{    
+	text-align: center;
+}
+table .delete{
+    margin-top:3px;
+	float: right;    
+	width: 20px;
+	height: 20px;
+	background-color: #B24D4D;
+}
+#add{
+    width: 60px;
+	height: 30px;
+	margin-left:780px;
+	text-align: center;
+	line-height:185%;
+	background-color: #57B259;
+	border-radius: 20px;
+}
