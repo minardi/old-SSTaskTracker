@@ -1,7 +1,7 @@
 (function(app) {
 	app.ItemCollection = Backbone.Collection.extend({			
 		
-		model: ItemModel,
+		model: app.ItemModel,
 		
 		url: "/tables"
 		
