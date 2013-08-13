@@ -1,6 +1,6 @@
 var sstt = {  
     demo: {},
-	items-list: {}
+    items-list: {}
 };
 
 $(function() {
