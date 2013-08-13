@@ -1,7 +1,7 @@
 var sstt = {  
-                       demo: {}
-                    };
+             demo: {},			 
+           };
 
 $(function() {
-     sstt.demo = new sstt.CatCollectionView({el: $("p")});
+     sstt.demo = new sstt.Demo.start($("p"));     
 });

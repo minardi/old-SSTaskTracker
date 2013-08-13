@@ -18,4 +18,4 @@
 				this.collection.each(this.renderOne, this);	
 			}			
 		});
-})(sstt);
+})(sstt.Demo);

@@ -8,7 +8,7 @@
 				this.add(new app.CatModel({"color": "white", "name": "Pushok"}));
 			},
 			
-			model: app.emoModel
+			model: app.DemoModel
 		});		
 		
-})(sstt);
+})(sstt.Demo);
