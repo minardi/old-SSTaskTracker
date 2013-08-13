@@ -2,7 +2,7 @@
 
 		app.Demo = {};			
 		app.Demo.start = function(element) {
-		   return new app.Demo.CatCollectionView({el: element});		   
+		   return new this.CatCollectionView({el: element});		   
 		};
 		
 })(sstt);

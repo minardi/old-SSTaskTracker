@@ -3,5 +3,5 @@ var sstt = {
            };
 
 $(function() {
-     sstt.demo = new sstt.Demo.start($("p"));     
+     sstt.demo = sstt.Demo.start($("p"));     
 });
