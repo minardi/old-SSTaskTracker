@@ -2,7 +2,7 @@
 	app.ItemCollectionView = Backbone.View.extend({
 		
 		initialize: function() {
-			this.collection = new ItemCollection();
+			this.collection = new app.ItemCollection();
 			this.i = 1;
 			this.collection.on("reset", this.updateCollection, this);        
 			this.collection.fetch();        		
@@ -14,7 +14,7 @@
 		},    		
 		
 		render: function() {
-			var model = new ItemModel();
+			var model = new app.ItemModel();
 			model.set({
 				"number" : this.setNumber(),
 				"date" : this.model.getCurrentDate(),
@@ -25,7 +25,7 @@
 		},      			
 		
 		addOne: function(model) {
-			var view = new ItemView({
+			var view = new app.ItemView({
 				model: model					
 			});
 			
