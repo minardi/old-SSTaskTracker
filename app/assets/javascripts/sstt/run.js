@@ -1,5 +1,4 @@
 var sstt = {  
-            demo: {},
             projects: {},
             projects_info : {},
             tories: {},
