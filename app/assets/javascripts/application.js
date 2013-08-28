@@ -4,5 +4,6 @@
 //= require underscore
 //= require backbone
 //= require libs/backbone-mediator
+//= require libs/jqueryui
+//= require libs/bootstrap
 //= require sstt/config
- 
