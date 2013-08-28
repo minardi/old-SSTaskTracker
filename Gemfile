@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'rails-backbone'
+gem 'backbone-on-rails'
+gem 'bootstrap-sass'
 gem 'underscore-rails'
 gem 'ejs'
 

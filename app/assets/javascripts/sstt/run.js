@@ -1,7 +1,9 @@
 var sstt = {  
-             demo: {},			 
+             projects: {},
+             projects_info : {}
            };
 
 $(function() {
-     sstt.demo = sstt.Demo.start($("p"));     
+    sstt.projects = sstt.Project.start($("#project_list"));
+    sstt.projects_info = sstt.ProjectInfo.start();    
 });

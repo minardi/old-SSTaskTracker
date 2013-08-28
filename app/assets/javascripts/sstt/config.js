@@ -1,2 +1,3 @@
 //= require ./run
-//= require ./demo/config
+//= require ./projects/config
+//= require ./project_info/config
