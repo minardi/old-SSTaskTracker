@@ -1,0 +1,79 @@
+@import "bootstrap";
+
+body {
+  color: rgb(0, 0, 0);
+}
+.container-fluid {
+  max-width: 1200px;
+  min-width: 700px;
+  margin: 0 auto;
+}
+
+.navbar-inner {
+  height: 50px;
+  margin-top: 10px;
+  border: 1px solid #7f7f7f;
+  border-radius: 7px;
+  box-shadow: 6px 5px 8px rgba(26, 15, 17, 0.437);
+  background-image: -moz-linear-gradient(left, #3469F1 0%, rgba(64, 252, 252, 1) 100%);
+  background-image: -webkit-linear-gradient(left, #3469F1 0%, rgba(64, 252, 252, 1) 100%);
+}
+
+.navbar .brand {
+ padding: 0 0 0 20px;
+ margin:0;
+ font-size: 35px;
+ line-height: 50px;
+ color: rgb(0, 0, 0); 
+}
+
+.navbar .divider-vertical {
+  height: 50px;
+  background-color: #ffffff;
+  border-right: 1px solid #cccccc;
+}
+
+.navbar .nav > li > a {
+  padding: 15px 10px 0px; 
+  color: rgb(0, 0, 0); 
+  text-shadow: none;
+}
+
+.navbar .nav > li > button {
+  margin-top: 10px;
+}
+
+.navbar .nav > li > a:hover,
+.navbar .nav > li > a:focus {
+  color: rgb(255, 116, 0);
+}
+
+.sidebar, .content-container {
+  border: 1px solid #7f7f7f;
+  border-radius: 7px;
+  box-shadow: 6px 5px 8px rgba(26, 15, 17, 0.437);
+}
+
+.sidebar {
+	overflow: hidden;
+}
+
+.sidebar-header, .content-header {
+  height: 50px;
+  border-radius: 6px;
+  background-image: -moz-linear-gradient(left, #3469F1 0%, rgba(64, 252, 252, 1) 100%);
+  background-image: -webkit-linear-gradient(left, #3469F1 0%, rgba(64, 252, 252, 1) 100%);
+}
+
+.sidebar-header h2, .content-header h2 { 
+  margin: 0;
+  padding: 0 0 0 40px;
+  font-size: 18px;
+  line-height: 50px;
+  display: inline-block;
+}
+
+.content-header button {
+  margin: 10px 15px 0 0;
+}
+

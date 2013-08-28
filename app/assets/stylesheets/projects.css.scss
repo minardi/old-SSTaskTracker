@@ -1,0 +1,27 @@
+#projects ul {
+  margin-left: 15px;
+}
+#project_list li {
+  margin: 0;
+}
+
+.project-item {
+	height: 150px;
+	margin: 10px;
+	border: 1px solid #003f7f;
+	color: #003f7f;
+  font-size: 15px;
+	text-align: center;
+	line-height: 150px;
+}
+
+div.project-item:hover,
+div.project-item:focus {
+  border-color: #003f7f;
+  color: #003f7f;
+  font-weight: bold;
+  text-decoration: none;
+  -webkit-box-shadow: 0 0 5px 5px rgba(255, 116, 0, 0.5);
+     -moz-box-shadow: 0 0 5px 5px rgba(255, 116, 0, 0.5);
+          box-shadow: 0 0 5px 5px rgba(255, 116, 0, 0.5);
+}
